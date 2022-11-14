@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto;
+    background-color: gray;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.btn {
+    height: 175px;
+    width: 175px;
+    font-size: 100px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn__minus {
+    background-color: lightcoral;
+}
+
+.btn__plus {
+    background-color: lightgreen;
+}
+
+.counter {
+    display: inline-block;
+    height: 175px;
+    width: 190px;
+    font-size: 50px;
+    background-color: lightgray;
+    text-align: center;
+    line-height: 175px;
+}
